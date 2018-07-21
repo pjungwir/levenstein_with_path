@@ -21,12 +21,12 @@ module LevensteinWithPath
                    tokens1.chars
                  else
                    tokens1
-                 end
+                 end.to_a
       @tokens2 = if tokens2.is_a?(String)
                    tokens2.chars
                  else
                    tokens2
-                 end
+                 end.to_a
 
       s = @tokens1
       t = @tokens2
