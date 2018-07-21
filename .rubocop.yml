@@ -1,0 +1,81 @@
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/LineLength:
+  Exclude:
+    - "Rakefile"
+  Max: 120
+
+Metrics/MethodLength:
+  Exclude:
+    - "spec/**/*"
+  Max: 35
+
+Metrics/AbcSize:
+  Max: 60
+
+Metrics/CyclomaticComplexity:
+  Max: 12
+
+Metrics/PerceivedComplexity:
+  Max: 15
+
+Style/BlockDelimiters:
+  EnforcedStyle: line_count_based
+  Exclude:
+    - "spec/**/*"
+
+Style/Documentation:
+  Exclude:
+    - "spec/**/*"
+Style/PercentLiteralDelimiters:
+  PreferredDelimiters:
+    "%w": "[]"
+
+Style/StringLiterals:
+  Enabled: false
+
+Style/ExpandPathArguments:
+  Enabled: false
+
+Gemspec/OrderedDependencies:
+  Enabled: false
+
+Naming/HeredocDelimiterNaming:
+  Enabled: false
+
+Layout/EmptyLinesAroundBlockBody:
+  Enabled: false
+
+Layout/IndentHeredoc:
+  Enabled: false
+
+Style/Encoding:
+  Enabled: false
+
+Lint/AmbiguousBlockAssociation:
+  Enabled: false
+
+Layout/SpaceBeforeBlockBraces:
+  Enabled: false
+
+Layout/SpaceInsideBlockBraces:
+  Enabled: false
+
+Style/TrailingCommaInArrayLiteral:
+  Enabled: false
+
+Style/AndOr:
+  Enabled: false
+
+Layout/EmptyLinesAroundModuleBody:
+  Enabled: false
+
+Layout/EmptyLinesAroundClassBody:
+  Enabled: false
+
+Style/ConditionalAssignment:
+  Enabled: false
+
+Style/TernaryParentheses:
+  Enabled: false
